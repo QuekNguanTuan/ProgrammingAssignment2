@@ -10,7 +10,7 @@
 ## First start with makeCacheMatrix: this function takes in a 
 ## "special" matrix object to cache
 ## its inverse. It returns a list of functions: set, get, 
-## setinverse,getinverse functions.
+## setinverse,getinverse functions.  
 
 makeCacheMatrix <- function(x = matrix()) {
         ## initialize the "special" matrix object, inverse
